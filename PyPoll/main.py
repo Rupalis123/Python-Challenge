@@ -66,10 +66,9 @@ output.write("Election Results\n")
 output.write("--------------------------\n")
 output.write("Total Votes: " + str(TotalVotes) + "\n")
 output.write("--------------------------\n")
-	
-# for candidate in electionDataCSVCandidate:
-#     output.write(candidate + ": " + str(format(electionDataCSVVotesPercent[electionDataCSVCandidate.index(candidate)], '.3f')) 
-#         + "% (" + str(electionDataCSVVotes[electionDataCSVCandidate.index(candidate)]) + ")\n")
+for candidate in electionDataCSVCandidate:
+    output.write(candidate + ": " + str(format(electionDataCSVVotesPercent[electionDataCSVCandidate.index(candidate)], '.3f')) 
+                    + "% (" + str(electionDataCSVVotes[electionDataCSVCandidate.index(candidate)]) + ")\n")
 	
 output.write("--------------------------\n")
 output.write("Winner:" + Winner + "\n")

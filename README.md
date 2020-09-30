@@ -1,7 +1,7 @@
 # Python-Challenge
 Python challenge - financial analysis and election data analysis
 
-## I have completed PyBank challenge. Working on PyPoll. Hopefully will be able to submit PyPoll as well by deadline tonight.
+## I have completed PyBank challenge. Still working on PyPoll. Submitted code. Trying to finish generating text file.
 ## It had been very busy last few days at work and to keep up with Python learning :-)
 
 ## Background

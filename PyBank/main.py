@@ -5,7 +5,7 @@ import os
 import csv
 
 #setting up path to collect data from the Resources folder
-budgetData_path = os.path.join('..', 'PYBANK','Resources', 'budget_data.csv')
+budgetData_path = os.path.join('..', 'PyBank','Resources', 'budget_data.csv')
 
 #creating work lists to store the data file, months/dates and profit/losses
 budgetDataCSV = []
